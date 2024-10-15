@@ -1,4 +1,4 @@
-FROM arm64v8/redis:7.0
+FROM redis:7.0
 MAINTAINER Maciej Nalewczynski <maciej.nalewczynski@gmail.com>
 
 ADD redis.conf /usr/local/etc/redis.conf
